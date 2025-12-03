@@ -35,15 +35,15 @@ Project ini cocok bagi mahasiswa atau pemula yang sedang belajar web development
 #  Struktur Folder Project
 
 *crud-buku/
-   *public
-         *index.php            
-         *list-buku.php       
-         *create-buku.php     
-         *edit-buku.php     
-         *delete-buku.php    
-      *uploads/           
-   *src/
-    *db.php        
+ *public
+  *index.php 
+  *list-buku.php 
+  *create-buku.php     
+  *edit-buku.php     
+  *delete-buku.php    
+ *uploads/ 
+*src/
+  *db.php 
     
 
 #  Instalasi Database
