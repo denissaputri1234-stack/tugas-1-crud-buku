@@ -1,8 +1,7 @@
-# crud-buku
-Tugas 1 CRUD PHP
 # CRUD Buku
+Tugas 1 CRUD PHP
 
-Aplikasi ini adalah sebuah project sederhana berbasis PHP dan MySQL yang di bangun untuk memahami dasar-dasar operasi CRUD (Create, Read, Update, Delete). Aplikasi ini digunakan untuk mengelola data buku, yaitu menyimpan, menampilkan, mengedit, dan menghapus data buku yang ada di database.
+Aplikasi ini adalah sebuah project sederhana berbasis PHP dan MySQL yang di bangun untuk memahami dasar-dasar operasi CRUD (Create, Read, Update, Delete). Aplikasi ini digunakan untuk mengelola data buku, yaitu menyimpan, menampilkan, mengedit, dan menghapus data buku yang ada di database.Aplikasi CRUD Buku ini dibuat untuk mempermudah pengelolaan data buku secara digital. Tujuan utamanya adalah menyediakan sistem yang sederhana namun lengkap untuk menambah, melihat, mencari, mengedit, dan menghapus data buku secara efisien. Aplikasi ini membantu mengurangi kesalahan pencatatan manual, mempercepat proses administrasi, serta menjaga data tetap rapi dan mudah diakses.
 
 ---
 
@@ -35,18 +34,16 @@ Project ini cocok bagi mahasiswa atau pemula yang sedang belajar web development
 
 #  Struktur Folder Project
 
-crud-buku/
-│──public
-   └──  index.php            # Halaman utama / dashboard
-   └──  list-buku.php        # Daftar semua buku
-   └──  create-buku.php      # Form tambah buku
-   └──  edit-buku.php        # Form edit buku
-   └──  delete-buku.php      # Hapus data buku
-│
-├── uploads/             # Tempat penyimpanan file cover buku
-│
-└── src/
-    └── db.php           # File koneksi database
+*crud-buku/
+   *public
+         *index.php            
+         *list-buku.php       
+         *create-buku.php     
+         *edit-buku.php     
+         *delete-buku.php    
+      *uploads/           
+   *src/
+    *db.php        
     
 
 #  Instalasi Database
@@ -199,6 +196,7 @@ SELECT * FROM buku WHERE judul LIKE '%kata%' OR penulis LIKE '%kata%' OR kategor
 * MySQL + PDO
 * HTML + CSS
 * XAMPP (Apache)
+* VSCode
 
 ---
 
