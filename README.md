@@ -113,6 +113,8 @@ http://localhost/crud-buku
 
 ## **1. index.php**
 
+Halaman ini berfungsi sebagai halaman utama yang menjadi titik awal pengguna saat membuka aplikasi. Di dalamnya terdapat navigasi yang mengarah ke halaman daftar buku dan halaman untuk menambah data baru. Halaman ini memastikan pengguna dapat mengakses seluruh fitur dengan mudah.
+
 berikut adalah tampilan halaman index.php:
 <img width="1772" height="856" alt="tampilan index php" src="https://github.com/user-attachments/assets/34d68970-3c27-4b56-b5f3-f80cffe05710" />
 
@@ -120,6 +122,9 @@ berikut adalah tampilan halaman index.php:
 * Terdapat Navigasi ke daftar buku dan tambah data
 
 ## **2. list-buku.php**
+
+Halaman ini menampilkan seluruh data buku dalam bentuk tabel yang rapi. Pengguna dapat melihat daftar lengkap buku, melakukan pencarian berdasarkan judul, penulis, atau kategori, serta mengakses tombol untuk mengedit atau menghapus data. Cover buku juga ditampilkan dalam ukuran kecil untuk mempermudah identifikasi.
+
 berikut adalah tampilan halaman list-buku.php:
 <img width="1915" height="843" alt="tampilan list-buku php" src="https://github.com/user-attachments/assets/3cd11848-6637-4701-ab10-14e182be798c" />
 
@@ -131,6 +136,9 @@ berikut adalah tampilan halaman list-buku.php:
 * terdapat tombol navigasi kembali ke beranda dan navigasi tambah buku
 
 ## **3. create-buku.php**
+
+Halaman ini menyediakan form untuk menambahkan data buku baru. Pengguna dapat mengisi informasi seperti judul, penulis, penerbit, tahun terbit, kategori, serta mengunggah cover buku. Halaman ini dilengkapi validasi untuk memastikan data yang dimasukkan sesuai dan tidak kosong.
+
 berikut adalah tampilan halaman create-buku.php:
 <img width="1811" height="876" alt="tampilan create-buku php" src="https://github.com/user-attachments/assets/e5119798-0558-434c-9446-de017fd2a663" />
 
@@ -139,6 +147,9 @@ berikut adalah tampilan halaman create-buku.php:
 * Upload cover buku (opsional)
 
 ## **4. edit-buku.php**
+
+Halaman ini digunakan untuk memperbarui data buku yang sudah ada. Data lama akan ditampilkan secara otomatis agar dapat diedit dengan mudah. Jika pengguna mengunggah cover baru, sistem akan mengganti file lama secara otomatis untuk menjaga kerapian folder penyimpanan.
+
 berikut adalah tampilan halaman edit-buku.php:
 <img width="1660" height="840" alt="tampilan edit-buku php" src="https://github.com/user-attachments/assets/f9993e86-eca1-4778-ae27-0fe44a63efeb" />
 
@@ -148,6 +159,9 @@ berikut adalah tampilan halaman edit-buku.php:
 * Cover lama otomatis terhapus jika diganti
 
 ## **5. delete-buku.php**
+
+Halaman ini menangani proses penghapusan data buku berdasarkan ID. Selain menghapus data dari database, halaman ini juga memastikan file cover buku yang tersimpan di folder uploads ikut dihapus agar tidak menumpuk dan memenuhi penyimpanan.
+
 berikut adalah tampilan halaman delete-buku.php:
 <img width="1646" height="855" alt="tampilan delete-buku php" src="https://github.com/user-attachments/assets/5853f5a7-93fb-4ca3-9acf-185a5d5b8ae2" />
 
